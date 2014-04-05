@@ -1,6 +1,6 @@
 # info.josf.examples
 
-A Clojure library designed to ... well, that part is up to you.
+Example code from my blog, [http://josf.info](josf.info) whenever I talk about Clojure.
 
 ## Usage
 

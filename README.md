@@ -4,7 +4,8 @@ Example code from my blog, [http://josf.info](josf.info) whenever I talk about C
 
 ## Usage
 
-FIXME
+Warning: some example functions might blow your stack. I try to warn
+when this is the case.Not all examples are good examples!
 
 ## License
 

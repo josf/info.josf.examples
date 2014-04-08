@@ -1,5 +1,5 @@
 (ns info.josf.examples.acquainted
-  "Functions used as examples for my first post about Clojure zippers:b
+  "Functions used as examples for my first post about Clojure zippers:
   http://josf.info/blog/2014/03/21/getting-acquainted-with-clojure-zippers/"
   (:require [clojure.zip :as zip]))
 

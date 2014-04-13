@@ -53,11 +53,16 @@
           (take-while (complement zip/end?)
                       (iterate zip/next loc))))
 
-(defn ancestor-count
+(defn ancestor-count-1
   "How many ancestors do I have?"
   [loc]
   (count (take-while zip/up
                      (iterate zip/up loc))))
+
+(defn ancestor-count
+  "How many ancestors do I have?"
+  [loc]
+  (count (zip/path loc)))
 
 (defn descendant-count
   "How many descendants do I have?"

@@ -1,7 +1,6 @@
 (ns info.josf.examples.zipper-seq
   (:require [clojure.zip :as zip]
-            [clojure.xml :as xml]
-            [clojure.data.zip.xml :a dx]))
+            [clojure.data.xml :as dx]))
 
 
 (defn recursion-for-recursion
